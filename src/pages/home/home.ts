@@ -30,7 +30,7 @@ export class HomePage {
     platform.ready().then(() => {
       let target = "_self";
       // OR you can point at a URL when the plugin is ready
-      this.theInAppBrowser.create("https://ipfs.io/ipfs/QmRTv3ATD62Jzmim8brtU53k1Dtn7Qzuv7WthDT9y6t3Au/",target,this.options);
+      this.theInAppBrowser.create("http://devhumor.com/content/uploads/images/October2014/there-are-two-type-of-programmers.png/",target,this.options);
     });
   }
 
